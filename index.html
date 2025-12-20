@@ -20,6 +20,8 @@
       rel="stylesheet"
     />
     <link href="styles.css" rel="stylesheet" />
+
+    <script src="js/app.js" type="module" defer></script>
   </head>
   <body>
     <div class="background-blobs" aria-hidden="true">
@@ -55,34 +57,32 @@
             </header>
 
             <nav class="buttons-group" aria-label="Réseaux sociaux et CV">
-              <a
-                class="btn btn-glass"
+              <bmarcon-btn
                 href="https://github.com/baptistemcn"
+                variant="glass"
+                icon="code"
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                <span class="material-symbols-outlined" aria-hidden="true"
-                  >code</span
-                >
-                <span>GitHub</span>
-              </a>
-              <a
-                class="btn btn-glass"
+                GitHub
+              </bmarcon-btn>
+              <bmarcon-btn
                 href="https://www.linkedin.com/in/baptiste-marcon/"
+                variant="glass"
+                icon="group"
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                <span class="material-symbols-outlined" aria-hidden="true"
-                  >group</span
-                >
-                <span>LinkedIn</span>
-              </a>
-              <a class="btn btn-primary" href="/cv.pdf" download>
-                <span class="material-symbols-outlined" aria-hidden="true"
-                  >description</span
-                >
-                <span>Mon CV</span>
-              </a>
+                LinkedIn
+              </bmarcon-btn>
+
+              <bmarcon-btn
+                href="/cv.pdf"
+                variant="primary"
+                icon="description"
+                target="_blank"
+                download
+              >
+                Mon CV
+              </bmarcon-btn>
             </nav>
           </section>
         </div>
@@ -90,7 +90,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© 2024 Baptiste Marcon. Tous droits réservés.</p>
+      <p>© 2025 Baptiste Marcon. Tous droits réservés.</p>
     </footer>
   </body>
 </html>
