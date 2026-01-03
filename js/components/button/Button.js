@@ -43,4 +43,4 @@ class Button extends HTMLElement {
   }
 }
 
-customElements.define("bmarcon-btn", Button);
+customElements.define("link-btn", Button);
